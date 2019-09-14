@@ -36,7 +36,7 @@ def initialiseRegistry():
         for j in REGISTRY:
             if pyfilesfolder[i] in j:
                 found = True
-                break
+                 break
         if pyfilesfolder[i][-3:] == ".py" and found == False:
             addToRegistry(i + 1,pyfilesfolder[i],pyfilesfolder[i][:-3])
         
